@@ -72,52 +72,52 @@ This sample represents muscle tissue from the orange-spotted grouper, which was 
 
 1. What biological question was the original RNA-seq study trying to answer?
 
-The study investigated how the muscle genes of *Epinephelus coioides* respond to sudden low-oxygen conditions and reoxygenation. It also aimed to identify the molecular processes that help the fish tolerate hypoxia and recover when oxygen levels return to normal.
+   The study investigated how the muscle genes of *Epinephelus coioides* respond to sudden low-oxygen conditions and reoxygenation. It also aimed to identify the molecular processes that help the fish tolerate hypoxia and recover when oxygen levels return to normal.
 
 2. Why did the authors use RNA-seq instead of only examining the genome?
  
-The researchers used RNA-seq because it shows which genes are actively being expressed and how their activity changes during hypoxia. While the genome contains the organism's complete genetic information, RNA-seq shows how those genes are functioning under specific conditions.
+   The researchers used RNA-seq because it shows which genes are actively being expressed and how their activity changes during hypoxia. While the genome contains the organism's complete genetic information, RNA-seq shows how those genes are functioning under specific conditions.
 
 3. What is the difference between genomic DNA and the RNA molecules measured by RNA-seq?
 
-Genomic DNA contains the complete and relatively permanent genetic information of an organism. In contrast, RNA molecules reflect which genes are currently being transcribed in a particular tissue or under a particular condition. Therefore, RNA-seq provides information about active gene expression that cannot be determined from DNA alone.
+   Genomic DNA contains the complete and relatively permanent genetic information of an organism. In contrast, RNA molecules reflect which genes are currently being transcribed in a particular tissue or under a particular condition. Therefore, RNA-seq provides information about active gene expression that cannot be determined from DNA alone.
 
 4. What is a biological replicate and why is it important?
 
-A biological replicate is an independent sample collected from separate individuals belonging to the same experimental group. Biological replicates are important because they account for natural differences between individuals and help determine whether the observed gene expression changes are reliable rather than caused by random variation.
+   A biological replicate is an independent sample collected from separate individuals belonging to the same experimental group. Biological replicates are important because they account for natural differences between individuals and help determine whether the observed gene expression changes are reliable rather than caused by random variation.
 
 5. What is the difference between single-end and paired-end sequencing?
 
-Single-end sequencing reads a DNA fragment from only one direction, whereas paired-end sequencing reads the same fragment from both ends. Paired-end sequencing provides additional information about the sequence and fragment structure, which can improve read alignment and the identification of different transcript forms.
+   Single-end sequencing reads a DNA fragment from only one direction, whereas paired-end sequencing reads the same fragment from both ends. Paired-end sequencing provides additional information about the sequence and fragment structure, which can improve read alignment and the identification of different transcript forms.
 
 6. What is a FASTQ file?
 
-A FASTQ file stores sequencing reads together with quality scores for every nucleotide. These quality scores indicate how confident the sequencing instrument was in identifying each base. Unlike FASTA files, FASTQ files contain both the sequence and its quality information.
+   A FASTQ file stores sequencing reads together with quality scores for every nucleotide. These quality scores indicate how confident the sequencing instrument was in identifying each base. Unlike FASTA files, FASTQ files contain both the sequence and its quality information.
 
 7. What information does FastQC provide?
 
-FastQC is used to evaluate the quality of sequencing data. It examines factors such as base quality, GC content, sequence composition, duplication levels, adapter contamination, and overrepresented sequences. These results help researchers determine whether the data are suitable for further analysis.
+   FastQC is used to evaluate the quality of sequencing data. It examines factors such as base quality, GC content, sequence composition, duplication levels, adapter contamination, and overrepresented sequences. These results help researchers determine whether the data are suitable for further analysis.
 
 8. What does a high per-base quality score indicate?
 
-A high per-base quality score means that the sequencing instrument had a high level of confidence when identifying the nucleotide at that position. This suggests that the reads are more accurate and can improve the reliability of later steps such as sequence alignment and gene expression analysis.
+   A high per-base quality score means that the sequencing instrument had a high level of confidence when identifying the nucleotide at that position. This suggests that the reads are more accurate and can improve the reliability of later steps such as sequence alignment and gene expression analysis.
 
 9. Why can adapter contamination be a problem?
 
-Adapter contamination occurs when artificial adapter sequences from the library preparation remain in the sequencing reads. If these sequences are not removed, they can affect read alignment, alter quality assessments, and potentially introduce errors or bias into downstream analyses such as gene expression studies.
+   Adapter contamination occurs when artificial adapter sequences from the library preparation remain in the sequencing reads. If these sequences are not removed, they can affect read alignment, alter quality assessments, and potentially introduce errors or bias into downstream analyses such as gene expression studies.
 
 10. Were all RNA-seq samples in your group similar in quality? Explain.
 
-The samples were generally of acceptable quality, but there were some differences among them. Most samples performed well in important quality checks, such as sequence quality and adapter content. However, some samples received warnings or failed in areas such as GC content, sequence duplication, and sequence composition, showing that the quality was not exactly the same across all samples.
+    The samples were generally of acceptable quality, but there were some differences among them. Most samples performed well in important quality checks, such as sequence quality and adapter content. However, some samples received warnings or failed in areas such as GC content, sequence duplication, and sequence composition, showing that the quality was not exactly the same across all samples.
 
 11. Did any sample show a possible quality problem? What was it?
 
-Yes. Some samples displayed possible quality concerns. For instance, SRR22065105 failed the per-base sequence content, per-sequence GC content, and sequence duplication checks. SRR22065111 also failed the sequence content, and duplication checks and received warnings for GC content and overrepresented sequences. These results suggest that additional quality control may be necessary before continuing with the analysis.
+    Yes. Some samples displayed possible quality concerns. For instance, SRR22065105 failed the per-base sequence content, per-sequence GC content, and sequence duplication checks. SRR22065111 also failed the sequence content, and duplication checks and received warnings for GC content and overrepresented sequences. These results suggest that additional quality control may be necessary before continuing with the analysis.
 
 12. What additional steps would be needed before the researchers could compare gene expression between control and treatment samples?
 
-Before comparing gene expression between the control and treatment groups, the sequencing data need to undergo several processing steps. These include removing low-quality reads, aligning the reads to a reference genome, counting the reads associated with each gene, and performing statistical analysis to identify significant differences in gene expression. In this study, tools such as Fastp, TopHat2, and DESeq2 were used for these processes.
+    Before comparing gene expression between the control and treatment groups, the sequencing data need to undergo several processing steps. These include removing low-quality reads, aligning the reads to a reference genome, counting the reads associated with each gene, and performing statistical analysis to identify significant differences in gene expression. In this study, tools such as Fastp, TopHat2, and DESeq2 were used for these processes.
 
 **Conclusion**
 
-In conclusion, RNA-seq is useful for understanding how *Epinephelus coioides* responds to low-oxygen conditions at the molecular level. It shows changes in gene expression that cannot be observed by examining genomic DNA alone. Although most of the sequencing samples had good quality, some showed issues that needed further quality control. Overall, proper processing and analysis of the RNA-seq data are important for making reliable comparisons between the control and treatment groups.
+      In conclusion, RNA-seq is useful for understanding how *Epinephelus coioides* responds to low-oxygen conditions at the molecular level. It shows changes in gene expression that cannot be observed by examining genomic DNA alone. Although most of the sequencing samples had good quality, some showed issues that needed further quality control. Overall, proper processing and analysis of the RNA-seq data are important for making reliable comparisons between the control and treatment groups.
