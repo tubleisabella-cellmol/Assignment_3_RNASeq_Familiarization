@@ -1,33 +1,33 @@
-**RNA-seq Sample Information**
+## **RNA-seq Sample Information**
 
-**Student and Group Information**
+## **Student and Group Information**
 
-Student Name: 
+**Student Name:** 
 Dave Lister F. Romano
 
-Group Number:
+**Group Number:**
 2
 
-**Group Paper**
+## **Group Paper**
 
-Title: RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in *Epinephelus coioides*
+**Title:** RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in *Epinephelus coioides*
 
-Citation: Lai, X., et al. (2022). RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in *Epinephelus coioides*.
+**Citation:** Lai, X., et al. (2022). RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in *Epinephelus coioides*.
 
-Study Link: https://doi.org/10.3389/fphys.2022.1049776
+**Study Link:** https://doi.org/10.3389/fphys.2022.1049776
 
-**Assigned RNA-seq Sample**
+## **Assigned RNA-seq Sample**
 
-RNA-seq Accession: SRR22065105
+**RNA-seq Accession:** SRR22065105
 
-Condition: Acute Hypoxia (Sensitive)
+**Condition:** Acute Hypoxia (Sensitive)
 
-Biological Replicate: 3
+**Biological Replicate:** 3
 
-Biological Meaning of the Sample: 
+**Biological Meaning of the Sample:**
 This sample represents muscle tissue from the orange-spotted grouper, which was used for RNA sequencing (RNA-Seq). The RNA extracted from the muscle was sequenced to study the genes that are actively expressed in the muscle, helping researchers understand muscle-related biological processes and gene functions in this fish.
 
-**Sequencing Information**
+## **Sequencing Information**
 
 | **Metric**              | **Result**       |
 |-------------------------|------------------|
@@ -36,7 +36,7 @@ This sample represents muscle tissue from the orange-spotted grouper, which was 
 | **Read Length**         | 150 bp           |
 | **GC Content**          | 51%              |
 
-**FastQC Summary**
+## **FastQC Summary**
 
 | **FastQC Module** | **Forward (R1)** | **Reverse (R2)** |
 |---|---|---|
@@ -50,7 +50,7 @@ This sample represents muscle tissue from the orange-spotted grouper, which was 
 | **Overrepresented sequences** | WARN | WARN |
 | **Adapter content** | PASS | PASS |
 
-**Screenshots**
+## **Screenshots**
 
 <img width="1357" height="644" alt="780031552_904303545671501_1155595656096021007_n" src="https://github.com/user-attachments/assets/461e900e-ee2b-48ea-9968-2d1025658556" />
 
@@ -68,7 +68,7 @@ This sample represents muscle tissue from the orange-spotted grouper, which was 
 
 **Figure 4:** FastQC Adapter Content
 
-**Interpretation Questions**
+## **Interpretation Questions**
 
 1. What biological question was the original RNA-seq study trying to answer?
 
@@ -118,6 +118,6 @@ Yes. Some samples displayed possible quality concerns. For instance, SRR22065105
 
 Before comparing gene expression between the control and treatment groups, the sequencing data need to undergo several processing steps. These include removing low-quality reads, aligning the reads to a reference genome, counting the reads associated with each gene, and performing statistical analysis to identify significant differences in gene expression. In this study, tools such as Fastp, TopHat2, and DESeq2 were used for these processes.
 
-**Conclusion**
+## **Conclusion**
 
 In conclusion, RNA-seq is useful for understanding how *Epinephelus coioides* responds to low-oxygen conditions at the molecular level. It shows changes in gene expression that cannot be observed by examining genomic DNA alone. Although most of the sequencing samples had good quality, some showed issues that needed further quality control. Overall, proper processing and analysis of the RNA-seq data are important for making reliable comparisons between the control and treatment groups.
