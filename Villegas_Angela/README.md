@@ -66,3 +66,5 @@ Figure 2. FastQC raw data output for the forward reads, showing sequence metrics
 
 Figure 3. FastQC webpage summary for the reverse reads, showing overall sequencing quality and quality-control results.
 
+
+
