@@ -1,6 +1,6 @@
 ## Citation of the paper (APA 7) ##
 
-Lai X, Zhong Z, Lin B, Wu Y, Ma Y, Zhang C, Yang Y, Zhang M, Qin W, Fu X and Shu H (2022) RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in Epinephelus coioides. Front. Physiol. 13:1049776. doi: 10.3389/fphys.2022.1049776
+Lai X, Zhong Z, Lin B, Wu Y, Ma Y, Zhang C, Yang Y, Zhang M, Qin W, Fu X and Shu H (2022) RNA-seq and qRT-PCR analyses reveal the physiological response to acute hypoxia and reoxygenation in *Epinephelus coioides*. Front. Physiol. 13:1049776. doi: 10.3389/fphys.2022.1049776
 
 ## Paper DOI ##
 
